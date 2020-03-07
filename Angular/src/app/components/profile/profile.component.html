@@ -1,0 +1,17 @@
+<head>
+  <title>
+    Profile Page
+  </title>
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<Body>
+  
+<div *ngIf="user" class="title">
+
+    <h1><i class="fa fa-user-circle" aria-hidden="true"></i>  {{user.username}} </h1>
+      <h3 ><i class="fa fa-envelope"></i>   {{user.email}}</h3>
+      <h3  type="password"> <i class="fa fa-key" aria-hidden="true"></i>
+         {{user.password}}</h3>
+
+  </div>
+</Body>
